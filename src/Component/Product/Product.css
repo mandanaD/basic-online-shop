@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.pro-container{
+    display: flex;
+    justify-content: center;
+    height: 655px;
+}
+#link{
+    margin-top: 1rem;
+    width: 1000px;
+    font-size: 14px;
+}
+#link a{
+    color: #838181;
+    text-decoration: none;
+    transition: .2s color linear;
+}
+#link a:hover{
+    color: #333333;
+}
+#link a:active{
+    color: #835d77;
+}
+.product-container {
+    width: 1000px;
+    box-shadow: 0 0 10px #c0c0c0;
+    margin-top: 3rem;
+    position: absolute;
+    display: flex;
+    align-items: center;
+}
+
+.product-title {
+    margin-right: 5rem;
+    height: 440px;
+}
+
+.icons button {
+    width: 260px;
+    height: 38px;
+    color: white;
+    background: #01cc78;
+    font-size: 17px;
+    border: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all .2s linear;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 20px;
+}
+
+.icons button:hover {
+    box-shadow: #03da81 0 0 5px, #01c272 0 0 8px;
+}
+
+.product-container img {
+    width: 480px;
+    height: 540px;
+    object-fit: cover;
+    object-position: bottom;
+    border-left: rgba(159, 159, 159, 0.54) solid 2px;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 12px;
+}
+
+.bottom {
+    position: absolute;
+    bottom: 16%;
+    padding: 10px;
+}
+
+#price {
+    color: #595656;
+    margin-top: 15px;
+    font-size: 17px;
+}
+
+#select {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+    width: 200px;
+}
+
+.selector-container {
+    margin-top: 20px;
+}
+
+.size {
+    margin-top: 10px;
+    text-align: center;
+    padding-top: 8px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    box-shadow: 0 0 2px #9d9d9d;
+    cursor: pointer;
+    transition: all .2s linear;
+}
+
+.selected {
+    margin-top: 10px;
+    text-align: center;
+    padding-top: 8px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    outline: 2px solid rgba(0, 0, 255, 0.75);
+    cursor: pointer;
+    transition: all .2s linear;
+}
+
+.size:hover {
+    box-shadow: 0 0 3px #333131;
+}
+

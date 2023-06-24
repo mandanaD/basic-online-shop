@@ -1,0 +1,33 @@
+.result-container{
+    width: 210px;
+    background: white;
+    box-shadow: 0 0 5px #c0c0c0;
+    position: absolute;
+    z-index: 5;
+    border-radius: 10px;
+    left: 5%;
+    top: 9%;
+    /*transform: translate(-13%,-6%);*/
+}
+.list-group{
+    display: grid;
+    place-items: center;
+}
+.list-item{
+    display: flex;
+    align-items: center;
+    border-bottom: rgba(128, 125, 125, 0.43) solid 1px;
+    font-size: 14px;
+    width: 190px;
+    padding: 10px 0 10px 0;
+}
+.list-item div{
+    color: #252424;
+}
+.list-item img{
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+    object-fit: cover;
+    border: rgba(89, 86, 86, 0.37) solid 1px;
+}
