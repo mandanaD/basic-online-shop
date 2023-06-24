@@ -20,7 +20,7 @@ This is a basic online shop web application built with React js. It allows users
 
 To get a local copy up and running, follow these steps:
 
-1. Clone the repository: `git clone <repository-url>`
+1. Clone the repository: `git clone https://github.com/mandanaD/basic-online-shop.git`
 2. Navigate to the project directory: `cd basic-online-shop`
 3. Install the dependencies: `npm install` or `npm i`
 4. Start the development server: `npm start`
